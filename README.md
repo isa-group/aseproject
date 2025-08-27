@@ -5,7 +5,7 @@ Recent advances in machine learning and generative artificial intelligence (GenA
 Aligned with current initiatives shaping the roadmap of SE over the next decade, the ISA project presents the notion of Augmented Software Engineering (ASE), emphasising how technologies will progressively enhance the capabilities of software engineers-while keeping them in control-enabling the development of more sophisticated and reliable software solutions. Accordingly, the goal of ISA is to augment the capabilities of software engineers in requirements, testing, and their intersection by designing human-centred tools, techniques, and processes. To achieve this objective, we will focus on three key differentiating points: 1) the interconnection between requirements and software testing as a fundamental enabler for validating AI-generated software applications, 2) a holistic approach that integrates tools, processes, and people, with the needs of engineers serving as the cornerstone for all decision-making, and 3) the adoption of disruptive technologies, including but not limited to GenAI, to support engineers throughout the software development lifecycle. 
 
 
-<img src="https://github.com/isa-group/aseproject/blob/main/sticker/ASE_sticker_dark.png" width="400">
+<img src="https://github.com/isa-group/aseproject/blob/main/sticker/ASE_sticker_dark.png" width="300">
 
 
 
