@@ -1,23 +1,15 @@
 backend:
-  name: git-gateway
-  branch: gt-graph  # Branch to store content
+  name: auth0
+  branch: "gt-graph"            # The branch where content will be committed
+  auth0_domain: "dev-ny357v86wcn4ya6y.us.auth0.com"
+  auth0_client_id: "eXevbx4yQirSP0ZIO7womHQQP1qaYyWj"
+  auth0_scope: "openid profile email"
 
-media_folder: "static/uploads"   # Hugo will copy to root
+media_folder: "static/uploads"  # Where uploaded files go in the repo
 public_folder: "/uploads"
 
-publish_mode: editorial_workflow  # Optional: allows review before publishing
-
 collections:
-  - name: "pages"
-    label: "Pages"
-    folder: "content/page"  # Hugo content folder
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
-
-  - name: "events"
+  - name: "event"
     label: "Events"
     folder: "content/event"
     create: true
@@ -25,4 +17,14 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Description", name: "description", widget: "markdown" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "publication"
+    label: "Publications"
+    folder: "content/publication"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Abstract", name: "abstract", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown" }
