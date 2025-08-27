@@ -1,9 +1,7 @@
 backend:
-  name: auth0
+  name: git-gateway
   branch: "gt-graph"            # The branch where content will be committed
-  auth0_domain: "dev-ny357v86wcn4ya6y.us.auth0.com"
-  auth0_client_id: "eXevbx4yQirSP0ZIO7womHQQP1qaYyWj"
-  auth0_scope: "openid profile email"
+  squash_merges: true
 
 media_folder: "static/uploads"  # Where uploaded files go in the repo
 public_folder: "/uploads"
