@@ -1,0 +1,28 @@
+backend:
+  name: git-gateway
+  branch: gt-graph  # Branch to store content
+
+media_folder: "static/uploads"   # Hugo will copy to root
+public_folder: "/uploads"
+
+publish_mode: editorial_workflow  # Optional: allows review before publishing
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    folder: "content/page"  # Hugo content folder
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "events"
+    label: "Events"
+    folder: "content/event"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "markdown" }
