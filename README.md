@@ -1,6 +1,9 @@
-## Trust4AI: Trustable AI-Driven Internet Search
+## ASE: Augmented Software Engineering
 
-The Trust4AI research project aims to explore new methods and tools for the automated detection of bugs in AI-driven search engines in accordance with EU trustworthiness compliance requirements. Trust4AI is part of the [NGI Search project](https://www.ngisearch.eu/) project.
+Recent advances in machine learning and generative artificial intelligence (GenAI) are driving a major transformation in software development. Tools such as coding assistants, test generators, and chatbotsfuelled by advances in large language models (LLMs) and massive amounts of dataare delivering an unparalleled level of automation while raising concerns related to trust, privacy, and sustainability. Analogously, AI is rapidly becoming a fundamental component of most software systems, often critical, as seen in the growing prevalence of autonomous systems. These emerging systems bring great promises in terms of productivity and innovation but also highlight the limitations of traditional SE, particularly in addressing issues such as non-determinism and the evolving nature of data.
+
+Aligned with current initiatives shaping the roadmap of SE over the next decade, the ISA project presents the notion of Augmented Software Engineering (ASE), emphasising how technologies will progressively enhance the capabilities of software engineerswhile keeping them in controlenabling the development of more sophisticated and reliable software solutions. Accordingly, the goal of ISA is to augment the capabilities of software engineers in requirements, testing, and their intersection by designing human-centred tools, techniques, and processes. To achieve this objective, we will focus on three key differentiating points: 1) the interconnection between requirements and software testing as a fundamental enabler for validating AI-generated software applications, 2) a holistic approach that integrates tools, processes, and people, with the needs of engineers serving as the cornerstone for all decision-making, and 3) the adoption of disruptive technologies, including but not limited to GenAI, to support engineers throughout the software development lifecycle. 
+
 
 <img src="https://github.com/isa-group/trust4ai/blob/main/sticker/Trust4AI_transparent.svg" width="200">
 
@@ -10,7 +13,7 @@ The Trust4AI research project aims to explore new methods and tools for the auto
 
 Trust4AI is licensed under the terms of the GPL-3.0 license.
 
-Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or European Commission. Neither the European Union nor the granting authority can be held responsible for them. Funded within the framework of the [NGI Search project](https://www.ngisearch.eu/) under grant agreement No 101069364.
+This content is part of the project PID2024-156482NB-I00, funded by MICIU/AEI/10.13039/501100011033 and by the FSE+,
 
 <p align="center">
 <img src="https://github.com/isa-group/trust4ai/blob/main/funding_logos/NGI_Search-rgb_Plan-de-travail-1-2048x410.png" width="400">
