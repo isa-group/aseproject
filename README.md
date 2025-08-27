@@ -9,11 +9,9 @@ Aligned with current initiatives shaping the roadmap of SE over the next decade,
 
 
 
-## License and funding
+## Funding
 
-Trust4AI is licensed under the terms of the GPL-3.0 license.
-
-This content is part of the project PID2024-156482NB-I00, funded by MICIU/AEI/10.13039/501100011033 and by the FSE+,
+This content is part of the project PID2024-156482NB-I00, funded by MICIU/AEI/10.13039/501100011033 and by the FSE+.
 
 <p align="center">
 <img src="https://github.com/isa-group/aseproject/blob/main/funding_logos/logo_ministerio_ciencia.svg" width="250">
