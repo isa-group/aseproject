@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: "gt-graph"            # The branch where content will be committed
+  branch: "gh-pages"            # The branch where content will be committed
   squash_merges: true
 
 media_folder: "static/uploads"  # Where uploaded files go in the repo
