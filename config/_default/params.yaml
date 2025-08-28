@@ -107,8 +107,8 @@ features:
 # Extensions
 
 extensions:
-  cms:
-    branch: main
+  decap_cms:
+    branch: gh-pages
     local_backend: false
   academicons:
     enable: true
