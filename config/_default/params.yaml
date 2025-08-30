@@ -45,12 +45,26 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Trust4AI. Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or European Commission. Neither the European Union nor the granting authority can be held responsible for them. Funded within the framework of the [NGI Search project](https://www.ngisearch.eu/) under grant agreement No 101069364. Activity C23.I1.P03.S01.01 ANDALUCÍA Public grant for the development of the «Programa INVESTIGO» funded by the «Mecanismo de Recuperación y Resiliencia» Junta de Andalucía and European Union.
-    <div style="display: flex;">
-    <img src="https://raw.githubusercontent.com/trust4AI/trust4ai/main/funding_logos/Investigo.png" width="900">
-    <img src="https://raw.githubusercontent.com/trust4AI/trust4ai/main/funding_logos/EU_funding_logo.png" width="100" style="margin-right: 20px;"> 
-    <img src="https://raw.githubusercontent.com/trust4AI/trust4ai/main/funding_logos/NGI_Search-rgb_Plan-de-travail-1-2048x410.png" width="400">
-    </div>'    
+    notice: |
+     © {year} ASEProject. This content is part of the project PID2024-156482NB-I00, funded by MICIU/AEI/10.13039/501100011033 and by the FSE+. 
+     <div style="display: flex; align-items: center; justify-content: center; gap: 20px;">
+     <div style="background-color: white; padding: 5px;">
+        <img src="/logos/EU_funding_logo.png" alt="EU_funding_logo">
+     </div>
+     <div style="background-color: white; padding: 5px;">
+        <img src="/logos/logo_aei.svg" alt="Logo AEI">
+     </div>
+     <div style="background-color: white; padding: 5px;">
+        <img src="/logos/logo_gobierno.svg" alt="Logo Gobierno" >
+     </div>
+     <div style="background-color: white; padding: 5px;">
+        <img src="/logos/logo_ministerio_ciencia.svg" alt="Logo Ministerio Ciencia" >
+     </div>
+     <div style="background-color: white; padding: 5px;">
+        <img src="/logos/US.png" alt="US Logo" >
+     </div>
+     </div>
+  
     license:
       enable: true
       allow_derivatives: false
@@ -109,7 +123,7 @@ features:
 extensions:
   decap_cms:
     branch: gh-pages
-    local_backend: false
+    local_backend: true
   academicons:
     enable: true
 

@@ -111,7 +111,7 @@ social:
  #   link: https://www.mendeley.com/reference-manager/library/groups/private/a14b6eab-d143-392e-a380-2ffb0ea8b3c2/all-references/
   - icon: github
     icon_pack: fab
-    link: https://github.com/Trust4AI
+    link: https://github.com/isa-group/aseproject
 #  - icon: linkedin
 #    icon_pack: fab
 #    link: https://www.linkedin.com/
@@ -125,8 +125,11 @@ social:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
+<div style="text-align: justify;">
+Recent advances in machine learning and generative artificial intelligence (GenAI) are driving a major transformation in software development. Tools such as coding assistants, test generators, and chatbots, fuelled by advances in large language models (LLMs) and massive amounts of data, are delivering an unparalleled level of automation while raising concerns related to trust, privacy, and sustainability. Analogously, AI is rapidly becoming a fundamental component of most software systems, often critical, as seen in the growing prevalence of autonomous systems. These emerging systems bring great promises in terms of productivity and innovation but also highlight the limitations of traditional SE, particularly in addressing issues such as non-determinism and the evolving nature of data.
 
-The Trust4AI research project aims to explore new methods and tools for the automated detection of bugs in AI-driven search engines in accordance with EU trustworthiness compliance requirements. Trust4AI is part of the [NGI Search project](https://www.ngisearch.eu/).
+Aligned with current initiatives shaping the roadmap of SE over the next decade, the ISA project presents the notion of Augmented Software Engineering (ASE), emphasising how technologies will progressively enhance the capabilities of software engineers, while keeping them in control, enabling the development of more sophisticated and reliable software solutions. Accordingly, the goal of ISA is to augment the capabilities of software engineers in requirements, testing, and their intersection by designing human-centred tools, techniques, and processes. To achieve this objective, we will focus on three key differentiating points: 1) the interconnection between requirements and software testing as a fundamental enabler for validating AI-generated software applications, 2) a holistic approach that integrates tools, processes, and people, with the needs of engineers serving as the cornerstone for all decision-making, and 3) the adoption of disruptive technologies, including but not limited to GenAI, to support engineers throughout the software development lifecycle. 
+</div>
 
+![ASE](ase.png)
 
-{style="text-align: justify;"}

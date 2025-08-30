@@ -40,7 +40,7 @@ sections:
   - block: about.biography
     id: about
     content:
-      title: Trust4AI. Trustable AI-Driven Internet Search
+      title: ASE. Augmented Software Engineering
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
   - block: collection
@@ -84,7 +84,18 @@ sections:
       show_date: false
       filters:
         folders:
-          - tools
+          - tools  
+    design:
+      columns: '2'
+      view: compact
+  - block: collection
+    id: datasets
+    content:
+      title: Datasets
+      show_date: false
+      filters:
+        folders:
+          - datasets  
     design:
       columns: '2'
       view: compact
@@ -97,29 +108,39 @@ sections:
           - news
     design:
       columns: '2'
-      view: compact       
+      view: compact  
+  - block: collection
+    id: Collaborators
+    content:
+      title: Collaborators
+      filters:
+        folders:
+          - collaborators
+    design:
+      columns: '2'
+      view: compact     
   - block: contact
     id: contact
     content:
       title: Contact
       subtitle:
       # Contact (add or remove contact options as necessary)
-      email: aarrieta@mondragon.edu #test@example.org
+      email: sergiosegura@us.es #test@example.org
       # phone: 888 888 88 88
       # appointment_url: 'https://calendly.com'
       address:
-        street: Loramendi Kalea, 4, Edif. 6.
-        city: Gipuzkoa
-        region: Mondragón
-        postcode: '20500'
+        street: Avda. Reina Mercedes
+        city: Seville
+        region: Seville
+        postcode: '41012'
         country: España
         country_code: ES
-      directions: Mondragon University
+      directions: Universidad de Sevilla
 
       # Choose a map provider in `params.yaml` to show a map from these coordinates
       coordinates:
-        latitude: '43.061707777778'
-        longitude: '-2.4970211111111'  
+        latitude: '37.3583821'
+        longitude: '-5.9876975'  
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider
