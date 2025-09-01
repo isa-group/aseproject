@@ -1,5 +1,6 @@
 ---
 title: Posts
+show_date: false
 cms_exclude: true
 
 # View.

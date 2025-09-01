@@ -11,39 +11,32 @@ main:
     url: '#members'
     weight: 20
   - name: Publications
-    show_date: false
-    url: '#featured'
-    weight: 40
+    url: '#publications'
+    weight: 30
   - name: Resources
-    show_date: false
     url: '#resources'
-    weight: 50
+    weight: 40
   - name: Videos
-    show_date: false
     parent: Resources
-    url: '#Videos'
-    weight: 10
+    url: '#videos'
+    weight: 50
   - name: Tools
-    show_date: false
     parent: Resources
     url: '#tools'
-    weight: 20
+    weight: 60
   - name: Datasets
-    show_date: false
     parent: Resources
     url: '#datasets'
-    weight: 30
-  - name: News
-    url: '#News'
-    show_date: false
-    weight: 60
-  - name: Collaborators
-    url: '#Collaborators'
-    show_date: false
-    weight: 60
-  - name: Contact
-    url: '#contact'
     weight: 70
+  - name: Collaborators
+    url: '#collaborators'
+    weight: 80
+  - name: News
+    url: '#news'
+    weight: 90
+#  - name: Contact
+#    url: '#contact'
+#    weight: 70
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.

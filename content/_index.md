@@ -55,18 +55,18 @@ sections:
       view: compact #mansory 
       flip_alt_rows: false
   - block: collection
-    id: featured
+    id: publications
     content:
       title: Publications 
       filters:
         folders:
-         - publication
+         - publications
         featured_only: true
     design:
       columns: '2'
       view: compact #Citation # card
   - block: collection
-    id: Videos
+    id: videos
     content:
       title: Videos
       show_date: false
@@ -100,7 +100,7 @@ sections:
       columns: '2'
       view: compact
   - block: collection
-    id: News
+    id: news
     content:
       title: Latest News
       filters:
@@ -110,7 +110,7 @@ sections:
       columns: '2'
       view: compact  
   - block: collection
-    id: Collaborators
+    id: collaborators
     content:
       title: Collaborators
       filters:
@@ -119,34 +119,34 @@ sections:
     design:
       columns: '2'
       view: compact     
-  - block: contact
-    id: contact
-    content:
-      title: Contact
-      subtitle:
+#  - block: contact
+#    id: contact
+#    content:
+#      title: Contact
+#      subtitle:
       # Contact (add or remove contact options as necessary)
-      email: sergiosegura@us.es #test@example.org
+#      email: sergiosegura@us.es #test@example.org
       # phone: 888 888 88 88
       # appointment_url: 'https://calendly.com'
-      address:
-        street: Avda. Reina Mercedes
-        city: Seville
-        region: Seville
-        postcode: '41012'
-        country: España
-        country_code: ES
-      directions: Universidad de Sevilla
+#      address:
+#        street: Avda. Reina Mercedes
+#        city: Seville
+#        region: Seville
+#        postcode: '41012'
+#        country: España
+#        country_code: ES
+#      directions: Universidad de Sevilla
 
       # Choose a map provider in `params.yaml` to show a map from these coordinates
-      coordinates:
-        latitude: '37.3583821'
-        longitude: '-5.9876975'  
+##      coordinates:
+#        latitude: '37.3583821'
+#        longitude: '-5.9876975'  
       # Automatically link email and phone or display as text?
-      autolink: true
+#      autolink: true
       # Email form provider
-    design:
-      columns: '2'
-      view: compact
+#    design:
+#      columns: '2'
+#      view: compact
 ---
 
 
