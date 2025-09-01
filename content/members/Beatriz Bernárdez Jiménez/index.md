@@ -12,6 +12,10 @@ image: # la imagen debe de estar en la misma carpeta que este archivo y debe de 
   alt_text: An optional description of the image for screen readers.
   # filename: my-image.jpg  # Uncomment to load an image from `assets/media/` instead.
 links:
+  - icon_pack: fas
+    icon: globe
+    name: Personal Website
+    url: 'https://departamento.us.es/lsi/profesor/bernardez-jimenez-beatriz/'
   - icon_pack: fab
     icon: linkedin # lista con todos los iconos en: https://docs.hugoblox.com/tutorial/resume/step-2/#skills
     name: Linkdin 
