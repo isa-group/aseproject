@@ -125,11 +125,101 @@ social:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-<div style="text-align: justify;">
-Recent advances in machine learning and generative artificial intelligence (GenAI) are driving a major transformation in software development. Tools such as coding assistants, test generators, and chatbots, fuelled by advances in large language models (LLMs) and massive amounts of data, are delivering an unparalleled level of automation while raising concerns related to trust, privacy, and sustainability. Analogously, AI is rapidly becoming a fundamental component of most software systems, often critical, as seen in the growing prevalence of autonomous systems. These emerging systems bring great promises in terms of productivity and innovation but also highlight the limitations of traditional SE, particularly in addressing issues such as non-determinism and the evolving nature of data.
+<div id="accordion">
 
-Aligned with current initiatives shaping the roadmap of SE over the next decade, the ISA project presents the notion of Augmented Software Engineering (ASE), emphasising how technologies will progressively enhance the capabilities of software engineers, while keeping them in control, enabling the development of more sophisticated and reliable software solutions. Accordingly, the goal of ISA is to augment the capabilities of software engineers in requirements, testing, and their intersection by designing human-centred tools, techniques, and processes. To achieve this objective, we will focus on three key differentiating points: 1) the interconnection between requirements and software testing as a fundamental enabler for validating AI-generated software applications, 2) a holistic approach that integrates tools, processes, and people, with the needs of engineers serving as the cornerstone for all decision-making, and 3) the adoption of disruptive technologies, including but not limited to GenAI, to support engineers throughout the software development lifecycle. 
+  <!-- Card 1 - Open by default -->
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0 d-flex justify-content-between align-items-center">
+        <button class="btn btn-link text-left flex-grow-1" data-toggle="collapse" data-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+          AI-Driven Transformation in Software Engineering
+        </button>
+        <span class="arrow">&#9654;</span>
+      </h5>
+    </div>
+
+  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+        <div style="text-align: justify;">
+        Recent advances in machine learning and generative artificial intelligence (GenAI) are driving a major transformation in software development. Tools such as coding assistants, test generators, and chatbots, fuelled by advances in large language models (LLMs) and massive amounts of data, are delivering an unparalleled level of automation while raising concerns related to trust, privacy, and sustainability. Analogously, AI is rapidly becoming a fundamental component of most software systems, often critical, as seen in the growing prevalence of autonomous systems. These emerging systems bring great promises in terms of productivity and innovation but also highlight the limitations of traditional SE, particularly in addressing issues such as non-determinism and the evolving nature of data.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 2 - Collapsed by default -->
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0 d-flex justify-content-between align-items-center">
+        <button class="btn btn-link text-left flex-grow-1 collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                aria-expanded="false" aria-controls="collapseTwo">
+          Augmented Software Engineering (ASE) and the ASE Project
+        </button>
+        <span class="arrow">&#9654;</span>
+      </h5>
+    </div>
+
+  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+        <div style="text-align: justify;">
+        Aligned with current initiatives shaping the roadmap of SE over the next decade, the ASE project presents the notion of Augmented Software Engineering (ASE), emphasising how technologies will progressively enhance the capabilities of software engineers, while keeping them in control, enabling the development of more sophisticated and reliable software solutions. Accordingly, the goal of ASE is to augment the capabilities of software engineers in requirements, testing, and their intersection by designing human-centred tools, techniques, and processes. To achieve this objective, we will focus on three key differentiating points: 1) the interconnection between requirements and software testing as a fundamental enabler for validating AI-generated software applications, 2) a holistic approach that integrates tools, processes, and people, with the needs of engineers serving as the cornerstone for all decision-making, and 3) the adoption of disruptive technologies, including but not limited to GenAI, to support engineers throughout the software development lifecycle.
+        </div>
+      </div>
+    </div>
+  </div>
+
 </div>
 
-![ASE](ase.png)
+<style>
+/* Make buttons match theme */
+.card-header .btn-link {
+  color: inherit;             /* Use theme's text color */
+  font-weight: bold;
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 0;
+  box-shadow: none;           /* Remove Bootstrap focus shadow */
+  outline: none !important;   /* Remove button focus outline */
+}
 
+/* Remove focus when clicking */
+.card-header .btn-link:focus,
+.card-header .btn-link:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Arrow styling */
+.card-header .arrow {
+  transition: transform 0.3s ease;
+  font-size: 1.1rem;
+  margin-left: 8px;
+}
+
+/* Rotate arrow DOWN when expanded */
+.card-header[aria-expanded="true"] .arrow,
+.card-header .btn-link[aria-expanded="true"] + .arrow {
+  transform: rotate(90deg);
+}
+</style>
+
+
+<style>
+/* Make buttons match theme */
+.card-header .btn-link {
+  color: inherit; /* Use theme's text color */
+  font-weight: bold;
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 0;
+}
+
+/* Rotate arrow when open */
+.card-header .arrow {
+  transition: transform 0.3s ease;
+}
+.collapse.show ~ .arrow {
+  transform: rotate(90deg);
+}
+</style>
