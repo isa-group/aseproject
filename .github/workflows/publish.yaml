@@ -3,7 +3,7 @@ name: Build Hugo and Deploy via GitHub Pages Action
 
 on:
   push:
-    branches: ["main"]
+    branches: ["gh-pages"]
   workflow_dispatch:
 
 permissions:
