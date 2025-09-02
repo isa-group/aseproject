@@ -40,7 +40,7 @@ sections:
   - block: about.biography
     id: about
     content:
-      title: ASE. Augmented Software Engineering
+      title: Augmented Software Engineering
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
   - block: collection
