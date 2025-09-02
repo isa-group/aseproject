@@ -47,19 +47,19 @@ footer:
      © {year} ASEProject. This content is part of the project PID2024-156482NB-I00, funded by MICIU/AEI/10.13039/501100011033 and by the FSE+. 
      <div style="display: flex; align-items: center; justify-content: center; gap: 20px;">
      <div style="background-color: white; padding: 5px;">
-        <img src="/logos/EU_funding_logo.png" alt="EU_funding_logo" style="height: 70px; width: auto;">
+        <img src="https://raw.githubusercontent.com/isa-group/aseproject/refs/heads/gh-pages/static/logos/EU_funding_logo.png" alt="EU_funding_logo" style="height: 70px; width: auto;">
      </div>
      <div style="background-color: white; padding: 5px;">
-        <img src="/logos/logo_aei.svg" alt="Logo AEI" style="height: 70px; width: auto;">
+        <img src="https://raw.githubusercontent.com/isa-group/aseproject/76cae8b7fc018721817691588a98d9598e1af1ac/static/logos/logo_aei.svg" alt="Logo AEI" style="height: 70px; width: auto;">
      </div>
      <div style="background-color: white; padding: 5px;">
-        <img src="/logos/logo_gobierno.svg" alt="Logo Gobierno" style="height: 70px; width: auto;">
+        <img src="https://raw.githubusercontent.com/isa-group/aseproject/76cae8b7fc018721817691588a98d9598e1af1ac/static/logos/logo_gobierno.svg" alt="Logo Gobierno" style="height: 70px; width: auto;">
      </div>
      <div style="background-color: white; padding: 5px;">
-        <img src="/logos/logo_ministerio_ciencia.svg" alt="Logo Ministerio Ciencia" style="height: 70px; width: auto;">
+        <img src="https://raw.githubusercontent.com/isa-group/aseproject/76cae8b7fc018721817691588a98d9598e1af1ac/static/logos/logo_ministerio_ciencia.svg" alt="Logo Ministerio Ciencia" style="height: 70px; width: auto;">
      </div>
      <div style="background-color: white; padding: 5px;">
-        <img src="/logos/US.png" alt="US Logo" style="height: 70px; width: auto;">
+        <img src="https://raw.githubusercontent.com/isa-group/aseproject/refs/heads/gh-pages/static/logos/US.png" alt="US Logo" style="height: 70px; width: auto;">
      </div>
      </div>
   
