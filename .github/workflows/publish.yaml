@@ -1,8 +1,13 @@
-name: Build & Deploy Hugo with Diagnostics
+# .github/workflows/hugo-deploy.yml
+name: Build & Deploy Hugo Site
+
+env:
+  WC_HUGO_VERSION: '0.119.0'
+  BASE_URL: 'https://isa-group.github.io/aseproject/'
 
 on:
   push:
-    branches: ["gh-pages"]
+    branches: ["gh-pages"]   # Trigger when you push to main branch (source)
   workflow_dispatch:
 
 permissions:
@@ -10,49 +15,59 @@ permissions:
   pages: write
   id-token: write
 
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       # 1️⃣ Checkout source code
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       # 2️⃣ Setup Hugo
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.119.0'
+          hugo-version: ${{ env.WC_HUGO_VERSION }}
           extended: true
 
-      # 3️⃣ Print environment variables (for diagnostics)
+      # 3️⃣ Show environment (for diagnostics)
       - name: Show environment variables
         run: env
 
       # 4️⃣ Clean Hugo cache and modules
-      - name: Clean Hugo cache and modules
+      - name: Clean Hugo cache
         run: |
           hugo mod clean
           hugo mod tidy
           rm -rf public resources
 
-      # 5️⃣ Dry run build (diagnostic)
-      - name: Hugo build (verbose)
-        run: hugo --minify --baseURL "https://isa-group.github.io/aseproject/" --verbose
+      # 5️⃣ Build site (verbose for debugging)
+      - name: Build Hugo site
+        run: hugo --minify --baseURL "${{ env.BASE_URL }}" --verbose
 
-      # 6️⃣ List generated files (diagnostic)
+      # 6️⃣ List generated files (diagnostics)
       - name: List generated files
         run: ls -R public || echo "No public folder yet"
 
-      # 7️⃣ Upload artifact for inspection (optional)
-      - name: Upload public folder for inspection
-        uses: actions/upload-artifact@v4
+      # 7️⃣ Upload artifact for deployment
+      - name: Upload Hugo public folder
+        uses: actions/upload-pages-artifact@v3
         with:
-          name: hugo-public
           path: ./public
 
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v4
