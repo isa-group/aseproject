@@ -1,70 +1,58 @@
-name: Deploy website to GitHub Pages
-
-env:
-  WC_HUGO_VERSION: '0.119.0'
+name: Build & Deploy Hugo with Diagnostics
 
 on:
-  # Trigger the workflow every time you push to the `gh-pages` branch
   push:
     branches: ["gh-pages"]
-  # Allows you to run this workflow manually from the Actions tab on GitHub.
   workflow_dispatch:
 
-# Provide permission to clone the repo and deploy it to GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
 jobs:
-  # Build website
   build:
-    if: github.repository_owner != 'HugoBlox'
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          # Fetch history for Hugo's .GitInfo and .Lastmod
-          fetch-depth: 0
+      # 1️⃣ Checkout source code
+      - uses: actions/checkout@v4
+
+      # 2️⃣ Setup Hugo
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: ${{ env.WC_HUGO_VERSION }}
+          hugo-version: '0.119.0'
           extended: true
-      - uses: actions/cache@v4
-        with:
-          path: /tmp/hugo_cache_runner/
-          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.mod') }}
-          restore-keys: |
-            ${{ runner.os }}-hugomod-
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v4
-      - name: Build with Hugo
-        env:
-          HUGO_ENVIRONMENT: production
+
+      # 3️⃣ Print environment variables (for diagnostics)
+      - name: Show environment variables
+        run: env
+
+      # 4️⃣ Clean Hugo cache and modules
+      - name: Clean Hugo cache and modules
         run: |
-          echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
-          hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+          hugo mod clean
+          hugo mod tidy
+          rm -rf public resources
+
+      # 5️⃣ Dry run build (diagnostic)
+      - name: Hugo build (verbose)
+        run: hugo --minify --baseURL "https://isa-group.github.io/aseproject/" --verbose
+
+      # 6️⃣ List generated files (diagnostic)
+      - name: List generated files
+        run: ls -R public || echo "No public folder yet"
+
+      # 7️⃣ Upload artifact for inspection (optional)
+      - name: Upload public folder for inspection
+        uses: actions/upload-artifact@v4
         with:
+          name: hugo-public
           path: ./public
 
-  # Deploy website to GitHub Pages hosting
   deploy:
-    if: github.repository_owner != 'HugoBlox'
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
     needs: build
+    runs-on: ubuntu-latest
     steps:
       - name: Deploy to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v4
