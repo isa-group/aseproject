@@ -6,7 +6,7 @@ env:
 
 on:
   push:
-    branches: ["gh-pages"]  # Trigger when you push to gh-pages branch
+    branches: ["main"] 
   workflow_dispatch:
 
 permissions:
@@ -27,6 +27,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
+          ref: gh-pages
           fetch-depth: 0
 
       # 2️⃣ Setup Hugo
