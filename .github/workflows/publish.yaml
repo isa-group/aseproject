@@ -1,20 +1,18 @@
-name: Deploy Hugo site to GitHub Pages
+name: Deploy Hugo site to GitHub Pages (branch)
 
 on:
   push:
-    branches: ["gh-pages"]   # Trigger when you push changes to main
+    branches: ["gh-pages"]
   workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -25,14 +23,13 @@ jobs:
           hugo-version: '0.119.0'
           extended: true
 
-      - name: Build Hugo site
+      - name: Build
         run: hugo --minify --baseURL "https://isa-group.github.io/aseproject/"
 
       - name: Deploy to gh-pages
-        uses: peaceiris/actions-gh-pages@v4
+        uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: gh-pages
-          user_name: "GitHub Actions"
-          user_email: "actions@github.com"
+          enable_jekyll: false
