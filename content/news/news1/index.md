@@ -7,11 +7,11 @@ links:
   - icon: ''
     icon_pack: ''
     name: "Follow us on Bluesky"
-    url: "https://bsky.app/profile/YOUR_USERNAME"
+    url: "https://bsky.app/search?q=%23ase"
 ---
 
 Stay connected with us on **Bluesky** for updates and announcements!  
 
 Click the button below to follow us:
 
-[🌐 Follow us on Bluesky](https://bsky.app/profile/YOUR_USERNAME)
+[🌐 Follow us on Bluesky](https://bsky.app/search?q=%23ase)
