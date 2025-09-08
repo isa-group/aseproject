@@ -125,7 +125,7 @@ sections:
       title: Contact
       subtitle:
       # Contact (add or remove contact options as necessary)
-      email: sergiosegura@us.es #test@example.org
+      email: sergiosegura [AT] us [DOT] es #test@example.org
       # phone: 888 888 88 88
       # appointment_url: 'https://calendly.com'
       address:
