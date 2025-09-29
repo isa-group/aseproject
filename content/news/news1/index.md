@@ -7,5 +7,5 @@ links:
   - icon: linkedin
     icon_pack: fab
     name: LinkedIn
-    url: https://www.linkedin.com/feed/hashtag/ase/
+    url: https://www.linkedin.com/feed/hashtag/aseproject/
 ---
