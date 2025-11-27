@@ -1,5 +1,5 @@
 ---
-title: ASE project meeting in Seville - 2025  # Example Demo
+title: ASE project kick-off meeting in Seville - 2025  # Example Demo
 
 
 
