@@ -112,9 +112,10 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/isa-group/aseproject
-#  - icon: linkedin
-#    icon_pack: fab
-#    link: https://www.linkedin.com/
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/feed/hashtag/aseproject/
+    label: Follow ASEProject on LinkedIn
    # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.

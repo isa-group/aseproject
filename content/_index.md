@@ -66,6 +66,16 @@ sections:
       columns: '2'
       view: compact #Citation # card
   - block: collection
+    id: events
+    content:
+      title: Events
+      filters:
+        folders:
+          - events
+    design:
+      columns: '2'
+      view: compact
+  - block: collection
     id: videos
     content:
       title: Videos
@@ -78,17 +88,6 @@ sections:
       view: compact
       show_date: false
   - block: collection
-    id: tools
-    content:
-      title: Tools
-      show_date: false
-      filters:
-        folders:
-          - tools  
-    design:
-      columns: '2'
-      view: compact
-  - block: collection
     id: datasets
     content:
       title: Datasets
@@ -99,16 +98,6 @@ sections:
     design:
       columns: '2'
       view: compact
-  - block: collection
-    id: news
-    content:
-      title: Latest News
-      filters:
-        folders:
-          - news
-    design:
-      columns: '2'
-      view: compact  
   - block: collection
     id: collaborators
     content:
@@ -148,6 +137,5 @@ sections:
       columns: '2'
       view: compact
 ---
-
 
 
