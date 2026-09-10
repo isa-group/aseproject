@@ -1,0 +1,36 @@
+{{ $block := .wcBlock }}
+
+<div class="ase-hero-layout">
+  <div class="ase-hero-content">
+    {{ with $block.content.eyebrow }}
+      <div class="ase-hero-eyebrow"><span aria-hidden="true"></span>{{ . }}</div>
+    {{ end }}
+
+    <h1 class="ase-hero-title">
+      {{ $block.content.title }}
+      {{ with $block.content.suffix }}<span>({{ . }})</span>{{ end }}
+    </h1>
+
+    {{ with $block.content.facts }}
+      <div class="ase-hero-facts">
+        {{ range . }}<span><i aria-hidden="true"></i>{{ . }}</span>{{ end }}
+      </div>
+    {{ end }}
+
+    <div class="ase-hero-actions">
+      <a class="ase-button ase-button-primary" href="{{ $block.content.cta.url }}">{{ $block.content.cta.label }}</a>
+      <a class="ase-button ase-button-secondary" href="{{ $block.content.cta_alt.url }}">{{ $block.content.cta_alt.label }}</a>
+    </div>
+
+    {{ with $block.content.social }}
+      <div class="ase-hero-socials">
+        {{ range . }}
+          <a href="{{ .url }}" target="_blank" rel="noopener" aria-label="{{ .label }}">
+            <i class="fab fa-{{ .icon }}" aria-hidden="true"></i>
+          </a>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+
+</div>

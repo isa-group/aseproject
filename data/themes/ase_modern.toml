@@ -1,0 +1,26 @@
+name = "ASE Modern"
+
+[light]
+  primary = "#138f83"
+  link = "#0d766e"
+  link_hover = "#095e58"
+  link_decoration = "none"
+  menu_primary = "#ffffff"
+  menu_text = "#38515b"
+  menu_text_active = "#0d766e"
+  menu_title = "#102f42"
+  background = "#ffffff"
+  home_section_odd = "#ffffff"
+  home_section_even = "#edf5f3"
+
+[dark]
+  primary = "#138f83"
+  link = "#0d766e"
+  link_hover = "#095e58"
+  menu_primary = "#ffffff"
+  menu_text = "#38515b"
+  menu_text_active = "#0d766e"
+  menu_title = "#102f42"
+  background = "#ffffff"
+  home_section_odd = "#ffffff"
+  home_section_even = "#edf5f3"

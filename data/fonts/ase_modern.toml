@@ -1,0 +1,6 @@
+name = "ASE Modern"
+google_fonts = "family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600"
+heading_font = "Space Grotesk"
+body_font = "Space Grotesk"
+nav_font = "Space Grotesk"
+mono_font = "DM Mono"
