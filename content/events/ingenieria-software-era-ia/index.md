@@ -13,7 +13,7 @@ featured: true
 draft: false
 ---
 
-La Inteligencia Artificial (IA) está transformando la manera en que desarrollamos software. Los agentes de IA ya pueden diseñar, implementar, probar, desplegar y mantener aplicaciones software de forma autónoma y a gran velocidad, lo que abre nuevas posibilidades, pero también enormes desafíos en términos de fiabilidad, seguridad y empleo, entre muchos otros. El evento reunirá ponencias sobre estas y otras tendencias actuales en Ingeniería de Software e IA, presentará los resultados del proyecto ASE y acercará a la academia y a la industria para debatir sobre su impacto, oportunidades y retos. ¡Os esperamos!
+La Inteligencia Artificial (IA) está transformando la manera en que desarrollamos software. Los agentes de IA ya pueden diseñar, implementar, probar, desplegar y mantener aplicaciones software de forma autónoma y a gran velocidad, lo que abre nuevas posibilidades, pero también enormes desafíos en términos de fiabilidad y seguridad, entre muchos otros. El evento reunirá ponencias sobre estas y otras tendencias actuales en Ingeniería de Software e IA, presentará los resultados del proyecto ASE y acercará a la academia y a la industria para debatir sobre su impacto, oportunidades y retos. ¡Os esperamos!
 
 <div class="ase-program-notice">
   <div class="ase-program-notice-icon" aria-hidden="true"><i class="far fa-calendar-alt"></i></div>
