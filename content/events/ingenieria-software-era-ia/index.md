@@ -5,7 +5,7 @@ date: 2026-10-21T09:00:00+02:00
 publishDate: 2026-09-10
 all_day: true
 event: "Industrial Day"
-location: "Seville, Spain"
+location: "Salón de Grados de la Escuela Técnica Superior de Ingeniería Informática de Sevilla"
 authors: []
 tags:
   - Industrial Day
@@ -19,6 +19,10 @@ La Inteligencia Artificial (IA) está transformando la forma en que desarrollamo
   <header class="ase-agenda-header">
     <div>
       <span>21 de octubre de 2026</span>
+      <aside class="ase-event-location" aria-label="Lugar del evento">
+        <div class="ase-event-location-icon" aria-hidden="true"><i class="fas fa-map-marker-alt"></i></div>
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=Sal%C3%B3n+de+Grados+de+la+Escuela+T%C3%A9cnica+Superior+de+Ingenier%C3%ADa+Inform%C3%A1tica+de+Sevilla" target="_blank" rel="noopener noreferrer">Salón de Grados de la Escuela Técnica Superior de Ingeniería Informática de Sevilla <i class="fas fa-external-link-alt" aria-hidden="true"></i></a>
+      </aside>
       <h2 id="programa-preliminar">Programa preliminar</h2>
     </div>
     <p>El programa puede estar sujeto a cambios.</p>
@@ -51,15 +55,15 @@ La Inteligencia Artificial (IA) está transformando la forma en que desarrollamo
       <time>11:00–12:30</time>
       <div class="ase-agenda-talks">
         <div class="ase-agenda-talk">
-          <h3>Agentes de voz</h3>
+          <h3>Adopción agéntica en Velora</h3>
           <p>Juan Carlos Alonso · Velora</p>
         </div>
         <div class="ase-agenda-talk">
-          <h3>Promesas y peligros de los copilotos de IA: un estudio industrial exploratorio</h3>
+          <h3>Promesas y peligros de los copilotos de IA: un estudio industrial</h3>
           <p>Lourdes Sanz · Schneider Electric</p>
         </div>
         <div class="ase-agenda-talk">
-          <h3>Productividad vs. entendimiento: el coste de la programación con IA</h3>
+          <h3>Productividad vs entendimiento: el coste de programar con IA</h3>
           <p>Alberto Martín · Universidad de Sevilla</p>
         </div>
       </div>

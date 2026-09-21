@@ -358,15 +358,53 @@ body {
   display: none;
 }
 
+.ase-event-location {
+  display: flex;
+  gap: 0.55rem;
+  align-items: center;
+  margin: 0.55rem 0 0;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.ase-event-location-icon {
+  display: grid;
+  place-items: center;
+  flex: 0 0 28px;
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  color: $ase-teal-dark;
+  background: #edf8f5;
+  font-size: 0.75rem;
+}
+
+.ase-event-location a {
+  width: auto !important;
+  border-bottom: 0 !important;
+  color: $ase-muted;
+  font-size: 0.86rem;
+  font-weight: 500;
+  line-height: 1.4;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.ase-event-location a i {
+  margin-left: 0.25rem;
+  font-size: 0.7rem;
+}
+
 .ase-agenda {
   margin: 3rem 0 1.5rem;
 }
 
 .ase-agenda-header {
-  display: flex;
-  gap: 1.5rem;
-  align-items: flex-end;
-  justify-content: space-between;
+  position: relative;
+  display: block;
   margin-bottom: 1.25rem;
 }
 
@@ -394,8 +432,11 @@ body {
 }
 
 .ase-agenda-header > p {
+  position: absolute;
+  right: 0;
+  bottom: 0.25rem;
   max-width: 220px;
-  margin: 0 0 0.25rem;
+  margin: 0;
   color: $ase-muted;
   font-size: 0.72rem;
   text-align: right;
@@ -507,9 +548,14 @@ body {
   }
 
   .ase-agenda-header > p {
+    position: static;
     max-width: none;
     margin-top: 0.55rem;
     text-align: left;
+  }
+
+  .ase-event-location a {
+    white-space: normal;
   }
 
   .ase-agenda-item,
