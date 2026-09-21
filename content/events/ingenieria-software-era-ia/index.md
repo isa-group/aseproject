@@ -1,7 +1,7 @@
 ---
 title: "Ingeniería del Software en la Era de la IA"
-summary: "Industrial Day sobre Ingeniería de Software en la era de la IA, previsto para el 14 de octubre de 2026. Consulta el programa preliminar."
-date: 2026-10-14T09:00:00+02:00
+summary: "Industrial Day sobre Ingeniería de Software en la era de la IA, previsto para el 21 de octubre de 2026. Consulta el programa preliminar."
+date: 2026-10-21T09:00:00+02:00
 publishDate: 2026-09-10
 all_day: true
 event: "Industrial Day"
@@ -18,7 +18,7 @@ La Inteligencia Artificial (IA) está transformando la forma en que desarrollamo
 <section class="ase-agenda" aria-labelledby="programa-preliminar">
   <header class="ase-agenda-header">
     <div>
-      <span>14 de octubre de 2026</span>
+      <span>21 de octubre de 2026</span>
       <h2 id="programa-preliminar">Programa preliminar</h2>
     </div>
     <p>El programa puede estar sujeto a cambios.</p>
@@ -33,7 +33,7 @@ La Inteligencia Artificial (IA) está transformando la forma en que desarrollamo
       <time>09:00–10:00</time>
       <div>
         <h3>Ingeniería del software agéntica: el código es barato, la calidad no</h3>
-        <p>Sergio Segura</p>
+        <p>Sergio Segura · Universidad de Sevilla</p>
       </div>
     </article>
     <article class="ase-agenda-item">
@@ -49,7 +49,20 @@ La Inteligencia Artificial (IA) está transformando la forma en que desarrollamo
     </article>
     <article class="ase-agenda-item">
       <time>11:00–12:30</time>
-      <div><h3>Ponencias industriales</h3></div>
+      <div class="ase-agenda-talks">
+        <div class="ase-agenda-talk">
+          <h3>Agentes de voz</h3>
+          <p>Juan Carlos Alonso · Velora</p>
+        </div>
+        <div class="ase-agenda-talk">
+          <h3>Promesas y peligros de los copilotos de IA: un estudio industrial exploratorio</h3>
+          <p>Lourdes Sanz · Schneider Electric</p>
+        </div>
+        <div class="ase-agenda-talk">
+          <h3>Productividad vs. entendimiento: el coste de la programación con IA</h3>
+          <p>Alberto Martín · Universidad de Sevilla</p>
+        </div>
+      </div>
     </article>
     <article class="ase-agenda-item">
       <time>12:30–13:15</time>

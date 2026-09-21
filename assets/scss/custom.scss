@@ -438,7 +438,11 @@ body {
 .ase-agenda-item p {
   margin: 0.3rem 0 0;
   color: $ase-muted;
-  font-size: 0.78rem;
+  font-size: 0.86rem;
+}
+
+.ase-agenda-talk + .ase-agenda-talk {
+  margin-top: 0.9rem;
 }
 
 .ase-agenda-item--social {
