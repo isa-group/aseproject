@@ -17,6 +17,18 @@ body {
   letter-spacing: -0.008em;
 }
 
+body.dark article.article {
+  color: $ase-ink;
+}
+
+body.dark article.article h1 {
+  color: $ase-navy;
+}
+
+body.dark article.article .article-metadata {
+  color: $ase-muted;
+}
+
 .navbar {
   min-height: 70px;
   background: rgba(255, 255, 255, 0.96) !important;

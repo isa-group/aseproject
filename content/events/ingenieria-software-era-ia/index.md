@@ -55,7 +55,7 @@ La Inteligencia Artificial (IA) está transformando la forma en que desarrollamo
       <time>11:00–12:30</time>
       <div class="ase-agenda-talks">
         <div class="ase-agenda-talk">
-          <h3>Adopción agéntica en Velora</h3>
+          <h3>De teclear a delegar (y revisar): lecciones aprendidas adoptando agentes en Velora</h3>
           <p>Juan Carlos Alonso · Velora</p>
         </div>
         <div class="ase-agenda-talk">
@@ -63,7 +63,11 @@ La Inteligencia Artificial (IA) está transformando la forma en que desarrollamo
           <p>Lourdes Sanz · Schneider Electric</p>
         </div>
         <div class="ase-agenda-talk">
-          <h3>Productividad vs entendimiento: el coste de programar con IA</h3>
+          <h3>Skynet no se reveló. Pasó QA.</h3>
+          <p>Jorge Müller · BOVEDAT (Gadir CiberTech SL)</p>
+        </div>
+        <div class="ase-agenda-talk">
+          <h3>Programando con IA: producimos más y entendemos menos</h3>
           <p>Alberto Martín · Universidad de Sevilla</p>
         </div>
       </div>
