@@ -42,7 +42,10 @@ La Inteligencia Artificial (IA) está transformando la forma en que desarrollamo
     </article>
     <article class="ase-agenda-item">
       <time>10:00–10:30</time>
-      <div><h3>Ponencia</h3></div>
+      <div>
+        <h3>Más allá del código: cuando los agentes supervisan el proceso de desarrollo software</h3>
+        <p>Manuel Resinas · Universidad de Sevilla</p>
+      </div>
     </article>
     <article class="ase-agenda-item ase-agenda-item--social">
       <time>10:30–11:00</time>
@@ -61,6 +64,10 @@ La Inteligencia Artificial (IA) está transformando la forma en que desarrollamo
         <div class="ase-agenda-talk">
           <h3>Promesas y peligros de los copilotos de IA: un estudio industrial</h3>
           <p>Lourdes Sanz · Schneider Electric</p>
+        </div>
+        <div class="ase-agenda-talk">
+          <h3>Documentación de proyectos con IA generativa: Proteus y Claude Code</h3>
+          <p>Amador Durán · Universidad de Sevilla</p>
         </div>
         <div class="ase-agenda-talk">
           <h3>Skynet no se reveló. Pasó QA.</h3>
