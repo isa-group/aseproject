@@ -15,6 +15,14 @@ draft: false
 
 La Inteligencia Artificial (IA) está transformando la forma en que desarrollamos software. El código deja de ser el centro para convertirse en un artefacto generado, mientras que el trabajo del ingeniero evoluciona hacia la orquestación de agentes y la gestión de requisitos, contexto, mecanismos de validación y supervisión humana. La sorprendente capacidad de la IA para desarrollar, operar y mantener software abre nuevas oportunidades, pero también plantea importantes desafíos en ámbitos como la fiabilidad y la seguridad. El evento reunirá ponencias sobre estas y otras tendencias actuales en Ingeniería de Software e IA, presentará los resultados del proyecto [ASE](/aseproject/) y acercará a la academia y la industria para debatir sobre su impacto, sus oportunidades y sus retos. ¡Os esperamos!
 
+<aside class="ase-event-registration" aria-label="Inscripción al evento">
+  <div>
+    <span>Inscripción abierta</span>
+    <strong>Reserva tu plaza para el Industrial Day</strong>
+  </div>
+  <a href="https://forms.cloud.microsoft/e/DUHgLJqLnW" target="_blank" rel="noopener noreferrer">Inscríbete <i class="fas fa-external-link-alt" aria-hidden="true"></i></a>
+</aside>
+
 <section class="ase-agenda" aria-labelledby="programa-preliminar">
   <header class="ase-agenda-header">
     <div>

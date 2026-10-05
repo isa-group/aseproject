@@ -370,6 +370,66 @@ body.dark article.article .article-metadata {
   display: none;
 }
 
+.ase-event-registration {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2.25rem 0 0;
+  padding: 1.15rem 1.25rem;
+  border: 1px solid rgba(184, 220, 88, 0.3);
+  border-radius: 18px;
+  background: linear-gradient(135deg, $ase-navy, #13465a);
+  box-shadow: 0 14px 35px rgba(13, 41, 65, 0.14);
+}
+
+.ase-event-registration div {
+  display: grid;
+  gap: 0.2rem;
+}
+
+.ase-event-registration span {
+  color: $ase-lime;
+  font-family: 'DM Mono', monospace;
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.ase-event-registration strong {
+  color: #fff;
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.ase-event-registration a {
+  display: inline-flex;
+  gap: 0.55rem;
+  align-items: center;
+  flex: 0 0 auto;
+  padding: 0.72rem 1rem;
+  border: 0 !important;
+  border-radius: 999px;
+  color: $ase-navy !important;
+  background: $ase-lime;
+  font-size: 0.86rem;
+  font-weight: 700;
+  text-decoration: none !important;
+  transition: transform 180ms ease, background 180ms ease;
+}
+
+.ase-event-registration a:hover {
+  color: $ase-navy !important;
+  background: #c8e878;
+  transform: translateY(-2px);
+}
+
+.ase-event-registration a i {
+  font-size: 0.72rem;
+}
+
 .ase-event-location {
   display: flex;
   gap: 0.55rem;
@@ -557,6 +617,12 @@ body.dark article.article .article-metadata {
 
   .ase-agenda-header {
     display: block;
+  }
+
+  .ase-event-registration {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 1.1rem;
   }
 
   .ase-agenda-header > p {
