@@ -416,7 +416,9 @@ body.dark article.article .article-metadata {
   background: $ase-lime;
   font-size: 0.86rem;
   font-weight: 700;
+  line-height: 1.2;
   text-decoration: none !important;
+  white-space: nowrap;
   transition: transform 180ms ease, background 180ms ease;
 }
 
