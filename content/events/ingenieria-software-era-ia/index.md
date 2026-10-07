@@ -42,7 +42,11 @@ La Inteligencia Artificial (IA) está transformando la forma en que desarrollamo
       <div><h3>Registro</h3></div>
     </article>
     <article class="ase-agenda-item">
-      <time>09:00–10:00</time>
+      <time>09:00–09:10</time>
+      <div><h3>Bienvenida</h3></div>
+    </article>
+    <article class="ase-agenda-item">
+      <time>09:10–10:00</time>
       <div>
         <h3>Ingeniería del software agéntica: el código es barato, la calidad no</h3>
         <p>Sergio Segura · Universidad de Sevilla</p>
@@ -85,10 +89,18 @@ La Inteligencia Artificial (IA) está transformando la forma en que desarrollamo
           <h3>Programando con IA: producimos más y entendemos menos</h3>
           <p>Alberto Martín · Universidad de Sevilla</p>
         </div>
+        <div class="ase-agenda-talk">
+          <h3>Sesgos en la IA (AI-Driven Social Impact Evidence Engine)</h3>
+          <p>Priscill Orue · Schneider Electric</p>
+        </div>
+        <div class="ase-agenda-talk">
+          <h3>ChatGPT Enterprise en entornos de trabajo</h3>
+          <p>David Rodríguez Moreno · Fundación CENTRA, Junta de Andalucía</p>
+        </div>
       </div>
     </article>
     <article class="ase-agenda-item">
-      <time>12:30–13:15</time>
+      <time>12:45–13:15</time>
       <div><h3>Mesa redonda</h3></div>
     </article>
     <article class="ase-agenda-item ase-agenda-item--social">
