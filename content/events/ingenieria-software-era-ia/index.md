@@ -67,41 +67,67 @@ La Inteligencia Artificial (IA) está transformando la forma en que desarrollamo
       </div>
     </article>
     <article class="ase-agenda-item">
-      <time>11:00–12:30</time>
-      <div class="ase-agenda-talks">
-        <div class="ase-agenda-talk">
-          <h3>De teclear a delegar (y revisar): lecciones aprendidas adoptando agentes en Velora</h3>
-          <p>Juan Carlos Alonso · Velora</p>
-        </div>
-        <div class="ase-agenda-talk">
-          <h3>Promesas y peligros de los copilotos de IA: un estudio industrial</h3>
-          <p>Lourdes Sanz · Schneider Electric</p>
-        </div>
-        <div class="ase-agenda-talk">
-          <h3>Documentación de proyectos con IA generativa: Proteus y Claude Code</h3>
-          <p>Amador Durán · Universidad de Sevilla</p>
-        </div>
-        <div class="ase-agenda-talk">
-          <h3>Skynet no se reveló. Pasó QA.</h3>
-          <p>Jorge Müller · BOVEDAT (Gadir CiberTech SL)</p>
-        </div>
-        <div class="ase-agenda-talk">
-          <h3>Programando con IA: producimos más y entendemos menos</h3>
-          <p>Alberto Martín · Universidad de Sevilla</p>
-        </div>
-        <div class="ase-agenda-talk">
-          <h3>Sesgos en la IA (AI-Driven Social Impact Evidence Engine)</h3>
-          <p>Priscill Orue · Schneider Electric</p>
-        </div>
-        <div class="ase-agenda-talk">
-          <h3>ChatGPT Enterprise en entornos de trabajo</h3>
-          <p>David Rodríguez Moreno · Fundación CENTRA, Junta de Andalucía</p>
-        </div>
+      <time>11:00–11:15</time>
+      <div>
+        <h3>De teclear a delegar (y revisar): lecciones aprendidas adoptando agentes en Velora</h3>
+        <p>Juan Carlos Alonso · Velora</p>
       </div>
     </article>
     <article class="ase-agenda-item">
-      <time>12:45–13:15</time>
-      <div><h3>Mesa redonda</h3></div>
+      <time>11:15–11:30</time>
+      <div>
+        <h3>Documentación de proyectos con IA generativa: Proteus y Claude Code</h3>
+        <p>Amador Durán · Universidad de Sevilla</p>
+      </div>
+    </article>
+    <article class="ase-agenda-item">
+      <time>11:30–11:45</time>
+      <div>
+        <h3>Skynet no se reveló. Pasó QA.</h3>
+        <p>Jorge Müller · BOVEDAT (Gadir CiberTech SL)</p>
+      </div>
+    </article>
+    <article class="ase-agenda-item">
+      <time>11:45–12:00</time>
+      <div>
+        <h3>Programando con IA: producimos más y entendemos menos</h3>
+        <p>Alberto Martín · Universidad de Sevilla</p>
+      </div>
+    </article>
+    <article class="ase-agenda-item">
+      <time>12:00–12:15</time>
+      <div>
+        <h3>Sesgos en la IA (AI-Driven Social Impact Evidence Engine)</h3>
+        <p>Priscill Orue · Schneider Electric</p>
+      </div>
+    </article>
+    <article class="ase-agenda-item">
+      <time>12:15–12:30</time>
+      <div>
+        <h3>De los planes de precios a las decisiones: Pricing Intelligence con HARVEY</h3>
+        <p>Francisco Javier Cavero · Universidad de Sevilla</p>
+      </div>
+    </article>
+    <article class="ase-agenda-item">
+      <time>12:30–12:45</time>
+      <div>
+        <h3>ChatGPT Enterprise en entornos de trabajo</h3>
+        <p>David Rodríguez Moreno · Fundación CENTRA, Junta de Andalucía</p>
+      </div>
+    </article>
+    <article class="ase-agenda-item">
+      <time>12:45–13:00</time>
+      <div>
+        <h3>Promesas y peligros de los copilotos de IA: un estudio industrial</h3>
+        <p>Lourdes Sanz · Schneider Electric</p>
+      </div>
+    </article>
+    <article class="ase-agenda-item">
+      <time>13:00–13:15</time>
+      <div>
+        <h3>The Provenance Paradox: Why human creativity, data integrity, and copyright matter more in the age of generative models</h3>
+        <p>Antonio Pérez · Copyright Clearance Center (Ixxus Spain)</p>
+      </div>
     </article>
     <article class="ase-agenda-item ase-agenda-item--social">
       <time>13:15–14:00</time>
