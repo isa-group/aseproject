@@ -1,6 +1,6 @@
 ---
 title: "Ingeniería del Software en la Era de la IA"
-summary: "Industrial Day sobre Ingeniería de Software en la era de la IA, previsto para el 21 de octubre de 2026. Consulta el programa preliminar."
+summary: "Industrial Day sobre Ingeniería de Software en la era de la IA, previsto para el 21 de octubre de 2026. Consulta el programa."
 date: 2026-10-21T09:00:00+02:00
 publishDate: 2026-09-10
 all_day: true
@@ -15,15 +15,14 @@ draft: false
 
 La Inteligencia Artificial (IA) está transformando la forma en que desarrollamos software. El código deja de ser el centro para convertirse en un artefacto generado, mientras que el trabajo del ingeniero evoluciona hacia la orquestación de agentes y la gestión de requisitos, contexto, mecanismos de validación y supervisión humana. La sorprendente capacidad de la IA para desarrollar, operar y mantener software abre nuevas oportunidades, pero también plantea importantes desafíos en ámbitos como la fiabilidad y la seguridad. El evento reunirá ponencias sobre estas y otras tendencias actuales en Ingeniería de Software e IA, presentará los resultados del proyecto [ASE](/aseproject/) y acercará a la academia y la industria para debatir sobre su impacto, sus oportunidades y sus retos. ¡Os esperamos!
 
-<aside class="ase-event-registration" aria-label="Inscripción al evento">
+<aside class="ase-event-registration" aria-label="Inscripción cerrada">
   <div>
-    <span>Inscripción abierta</span>
-    <strong>Reserva tu plaza para el Industrial Day</strong>
+    <span>Aforo completo</span>
+    <strong>Las plazas para el Industrial Day están agotadas</strong>
   </div>
-  <a href="https://forms.cloud.microsoft/e/DUHgLJqLnW" target="_blank" rel="noopener noreferrer">Inscríbete <i class="fas fa-external-link-alt" aria-hidden="true"></i></a>
 </aside>
 
-<section class="ase-agenda" aria-labelledby="programa-preliminar">
+<section class="ase-agenda" aria-labelledby="programa">
   <header class="ase-agenda-header">
     <div>
       <span>21 de octubre de 2026</span>
@@ -31,7 +30,7 @@ La Inteligencia Artificial (IA) está transformando la forma en que desarrollamo
         <div class="ase-event-location-icon" aria-hidden="true"><i class="fas fa-map-marker-alt"></i></div>
         <a href="https://www.google.com/maps/search/?api=1&amp;query=Sal%C3%B3n+de+Grados+de+la+Escuela+T%C3%A9cnica+Superior+de+Ingenier%C3%ADa+Inform%C3%A1tica+de+Sevilla" target="_blank" rel="noopener noreferrer">Salón de Grados de la Escuela Técnica Superior de Ingeniería Informática de Sevilla <i class="fas fa-external-link-alt" aria-hidden="true"></i></a>
       </aside>
-      <h2 id="programa-preliminar">Programa preliminar</h2>
+      <h2 id="programa">Programa</h2>
     </div>
     <p>El programa puede estar sujeto a cambios.</p>
   </header>
