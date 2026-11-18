@@ -23,6 +23,10 @@ main:
     parent: Resources
     url: '#videos'
     weight: 60
+  - name: Tools
+    parent: Resources
+    url: '#tools'
+    weight: 65
   - name: Datasets
     parent: Resources
     url: '#datasets'

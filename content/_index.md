@@ -91,6 +91,17 @@ sections:
       view: compact
       show_date: false
   - block: collection
+    id: tools
+    content:
+      title: Tools
+      show_date: false
+      filters:
+        folders:
+          - tools
+    design:
+      columns: '2'
+      view: compact
+  - block: collection
     id: datasets
     content:
       title: Datasets
