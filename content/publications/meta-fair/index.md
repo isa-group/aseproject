@@ -20,6 +20,8 @@ links:
   - name: Google Scholar
     url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AcMLHeEAAAAJ&citation_for_view=AcMLHeEAAAAJ:vDijr-p_gm4C"
 monitoring:
+  scholar_citations: ["AcMLHeEAAAAJ:vDijr-p_gm4C", "Ro74TWgAAAAJ:hqOjcs7Dif8C", "Ro74TWgAAAAJ:KlAtU1dfN6UC"]
+  last_checked: "2026-11-18"
   canonical_key: "meta fair ai assisted fairness testing of large language models"
   doi: "10.1016/j.infsof.2026.108075"
   prisma_publication: "280943"

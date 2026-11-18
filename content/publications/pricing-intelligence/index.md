@@ -1,21 +1,24 @@
 ---
+doi: "10.1007/978-3-032-28110-4_3"
 title: "Pricing Intelligence: Rethinking IS Engineering in Volatile SaaS Environments"
-summary: "International Conference on Advanced Information Systems Engineering"
+summary: "Advanced Information Systems Engineering, pp. 42-58"
 authors:
   - Francisco Javier Cavero
   - Alejandro García-Fernández
   - José Antonio Parejo
   - Manuel Resinas
   - Antonio Ruiz-Cortés
-date: 2026-01-01
-publishDate: 2026-01-01
+date: 2026-06-08
+publishDate: 2026-06-08
 publication_types: ["paper-conference"]
-publication: "International Conference on Advanced Information Systems Engineering, pp. 42-58"
+publication: "Advanced Information Systems Engineering, pp. 42-58"
 featured: true
 links:
   - name: Google Scholar
     url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Wjzs3WoAAAAJ&citation_for_view=Wjzs3WoAAAAJ:Oo1CbQkBAzEC"
 monitoring:
+  doi: "10.1007/978-3-032-28110-4_3"
+  last_checked: "2026-11-18"
   canonical_key: "pricing intelligence rethinking is engineering in volatile saas environments"
   scholar_profiles: ["Wjzs3WoAAAAJ"]
 ---

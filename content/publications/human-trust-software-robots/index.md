@@ -1,6 +1,7 @@
 ---
+doi: "10.1007/s12599-026-01007-y"
 title: "Exploring Human Trust in Software Robots for Robotic Process Automation"
-summary: "Business & Information Systems Engineering"
+summary: "Business & Information Systems Engineering, pp. 1-17"
 authors:
   - Simone Agostinelli
   - Piercosma Bisconti
@@ -38,6 +39,8 @@ links:
   - name: Google Scholar
     url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Wjzs3WoAAAAJ&citation_for_view=Wjzs3WoAAAAJ:inmFHauC9wsC"
 monitoring:
+  doi: "10.1007/s12599-026-01007-y"
+  last_checked: "2026-11-18"
   canonical_key: "exploring human trust in software robots for robotic process automation"
   scholar_profiles: ["Wjzs3WoAAAAJ"]
 ---

@@ -1,16 +1,16 @@
 ---
 title: "Interactive creation, visualization, and exploration of process model collections"
-summary: "Software and Systems Modeling, 25(2), 437-462"
+summary: "Software and Systems Modeling, 25(2), pp. 437-462"
 authors:
   - María Salas-Urbano
   - Carlos Capitán-Agudo
   - Cristina Cabanillas
   - Manuel Resinas
-date: 2026-04-01
-publishDate: 2026-04-01
+date: 2026-01-12
+publishDate: 2026-01-12
 doi: "10.1007/s10270-025-01346-6"
 publication_types: ["article-journal"]
-publication: "Software and Systems Modeling, 25(2), 437-462"
+publication: "Software and Systems Modeling, 25(2), pp. 437-462"
 featured: true
 links:
   - name: Prisma
@@ -18,6 +18,7 @@ links:
   - name: Google Scholar
     url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Wjzs3WoAAAAJ&citation_for_view=Wjzs3WoAAAAJ:CMvovTBb2okC"
 monitoring:
+  last_checked: "2026-11-18"
   canonical_key: "interactive creation visualization and exploration of process model collections"
   doi: "10.1007/s10270-025-01346-6"
   prisma_publication: "276594"

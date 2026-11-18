@@ -6,14 +6,18 @@ from __future__ import annotations
 import re
 import sys
 import unicodedata
+import argparse
 from collections import defaultdict
+from datetime import date
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
 FRONT_MATTER = re.compile(r"\A---\s*\n(.*?)\n---", re.DOTALL)
 TITLE = re.compile(r'^title:\s*["\']?(.*?)["\']?\s*$', re.MULTILINE)
-YEAR = re.compile(r"^date:\s*[\"']?(\d{4})", re.MULTILINE)
+PUBLICATION_DATE = re.compile(r"^date:\s*[\"']?(\d{4}-\d{2}-\d{2})", re.MULTILINE)
+DOI = re.compile(r"^doi:\s*[\"']?(.*?)[\"']?\s*$", re.MULTILINE)
+MONITORING_DOI = re.compile(r"^  doi:\s*[\"']?(.*?)[\"']?\s*$", re.MULTILINE)
 CANONICAL_KEY = re.compile(r"^\s*canonical_key:\s*[\"']?(.*?)[\"']?\s*$", re.MULTILINE)
 
 
@@ -28,10 +32,19 @@ def front_matter(path: Path) -> str:
     return match.group(1) if match else ""
 
 
+def normalize_doi(value: str) -> str:
+    return re.sub(r"^(?:https?://(?:dx\.)?doi\.org/|doi:\s*)", "", value.strip(), flags=re.I).lower()
+
+
 def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--as-of", type=date.fromisoformat, default=date.today())
+    args = parser.parse_args()
+    start = date(2025, 9, 1)
     errors: list[str] = []
     titles: dict[str, list[Path]] = defaultdict(list)
     keys: dict[str, list[Path]] = defaultdict(list)
+    dois: dict[str, list[Path]] = defaultdict(list)
 
     for path in sorted((ROOT / "content" / "publications").glob("*/index.md")):
         data = front_matter(path)
@@ -51,11 +64,24 @@ def main() -> int:
             if key != normalize(title_match.group(1)):
                 errors.append(f"{path.relative_to(ROOT)}: canonical_key does not match title")
 
-        year_match = YEAR.search(data)
-        if key_match and (not year_match or int(year_match.group(1)) not in range(2026, 2029)):
-            errors.append(f"{path.relative_to(ROOT)}: monitored publication outside 2026-2028")
+        date_match = PUBLICATION_DATE.search(data)
+        if key_match:
+            try:
+                publication_date = date.fromisoformat(date_match.group(1)) if date_match else None
+            except ValueError:
+                publication_date = None
+            if publication_date is None or not start <= publication_date <= args.as_of:
+                errors.append(f"{path.relative_to(ROOT)}: monitored publication outside {start}–{args.as_of} or invalid date")
 
-    for label, index in (("normalized title", titles), ("canonical key", keys)):
+        doi_match = DOI.search(data)
+        monitoring_doi = MONITORING_DOI.search(data)
+        doi = normalize_doi(doi_match.group(1)) if doi_match else ""
+        if doi:
+            dois[doi].append(path)
+        if monitoring_doi and normalize_doi(monitoring_doi.group(1)) != doi:
+            errors.append(f"{path.relative_to(ROOT)}: monitoring DOI differs from publication DOI")
+
+    for label, index in (("DOI", dois), ("normalized title", titles), ("canonical key", keys)):
         for value, paths in index.items():
             if value and len(paths) > 1:
                 joined = ", ".join(str(path.relative_to(ROOT)) for path in paths)

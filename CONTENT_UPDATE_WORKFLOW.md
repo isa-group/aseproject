@@ -18,8 +18,11 @@ content update must follow the sequence below.
 
 Publication policy:
 
-- Include every publication dated 2026, 2027, or 2028 from any listed Scholar
-  profile, plus every publication associated with the project in Prisma.
+- Include publications from 1 September 2025 through the review date from the
+  project members, using their Scholar profiles and the recorded Prisma profiles.
+  Use the publisher's online publication date when available; a later issue or
+  copyright year must not exclude a work already published online. Do not count
+  a new issue assignment as a new publication of an older online article.
 - Prefer Prisma metadata when the same record is present in Prisma and Scholar.
 - Deduplicate first by DOI, then by a canonical title obtained with Unicode
   normalization, lower-casing, punctuation removal, and whitespace collapse.
@@ -36,7 +39,9 @@ News policy:
   title, author, and event date.
 - Write all website copy in English and retain the original LinkedIn source URL.
 
-Blank profile cells in the CSV are intentionally ignored. Never guess a profile.
+Never guess a profile. When a Scholar cell is blank, use a recorded Prisma
+profile when available. The owner confirmed on 18 November 2026 that Miguel
+Ballesteros Caliz and Abdel Rahim Yehya have no publications yet.
 
 ## 3. Edit and validate
 

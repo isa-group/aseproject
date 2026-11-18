@@ -1,6 +1,7 @@
 ---
+doi: "10.1145/3786155.3795700"
 title: "RESTest at the REST League 2026 Tool Competition"
-summary: "19th ACM/IEEE International Workshop on Search-Based and Fuzz Testing"
+summary: "Proceedings of the 19th ACM/IEEE International Workshop on Search-Based and Fuzz Testing, pp. 31-33"
 authors:
   - Alberto Mimbrero
   - Juan Carlos Alonso Valenzuela
@@ -15,6 +16,8 @@ links:
   - name: Google Scholar
     url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AcMLHeEAAAAJ&citation_for_view=AcMLHeEAAAAJ:KUbvn5osdkgC"
 monitoring:
+  doi: "10.1145/3786155.3795700"
+  last_checked: "2026-11-18"
   canonical_key: "restest at the rest league 2026 tool competition"
   scholar_profiles: ["AcMLHeEAAAAJ", "FBBWKh4AAAAJ"]
 ---

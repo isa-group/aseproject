@@ -3,7 +3,7 @@ title: "SATORI: Static Test Oracle Generation for REST APIs"
 # This file represents a page section.
 # headless: true
 
-summary: "40th IEEE/ACM International Conference on Automated Software Engineering (ASE 2025)"
+summary: "2025 40th IEEE/ACM International Conference on Automated Software Engineering (ASE), pp. 1364-1376"
 draft: false
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -24,11 +24,11 @@ authors:
 # author_notes:
 
 
-date: 2025-08-22
-doi: ''
+date: 2025-11-16
+doi: "10.1109/ASE63991.2025.00116"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2025-08-22T00:00:00Z'
+publishDate: 2025-11-16
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -37,8 +37,8 @@ publication_types:
 - "paper-conference"
 
 # Publication name and optional abbreviated publication name.
-publication: "40th IEEE/ACM International Conference on Automated Software Engineering (ASE 2025)"
-publication_short: "ASE'25"
+publication: "2025 40th IEEE/ACM International Conference on Automated Software Engineering (ASE), pp. 1364-1376"
+publication_short: "ASE 2025, pp. 1364-1376"
 
 
 # Summary. An optional shortened abstract.
@@ -51,8 +51,10 @@ featured: true
 
 # Custom links (uncomment lines below)
 links:
-- name: "Slides"
-  url: ""
+  - name: Prisma
+    url: "https://prisma.us.es/publicacion/281828"
+  - name: Google Scholar
+    url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AcMLHeEAAAAJ&citation_for_view=AcMLHeEAAAAJ:BUYA1_V_uYcC"
 
 url_pdf: ''
 # url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
@@ -103,4 +105,11 @@ design:
   #   4 = Citation (publication only)
   view: 4
 
+monitoring:
+  date_basis: "conference proceedings; replaces preprint date"
+  scholar_profiles: ["AcMLHeEAAAAJ", "FBBWKh4AAAAJ", "Ro74TWgAAAAJ"]
+  prisma_publication: "281828"
+  doi: "10.1109/ASE63991.2025.00116"
+  last_checked: "2026-11-18"
+  canonical_key: "satori static test oracle generation for rest apis"
 ---
